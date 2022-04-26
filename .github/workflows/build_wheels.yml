@@ -16,6 +16,7 @@ jobs:
         with:
           repository: numpy/numpy
           path: numpy
+          ref: v1.21.6
 
       - name: Build wheels
         uses: pypa/cibuildwheel@v2.4.0
