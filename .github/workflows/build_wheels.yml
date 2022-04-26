@@ -26,6 +26,7 @@ jobs:
         env:
             CIBW_BEFORE_BUILD: ''
             CIBW_BUILD: 'cp311-*'
+            CIBW_PRERELEASE_PYTHONS: True
 
       - uses: actions/upload-artifact@v2
         with:
