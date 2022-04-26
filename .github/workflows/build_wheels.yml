@@ -22,8 +22,8 @@ jobs:
         with:
           package-dir: numpy
         # to supply options, put them in 'env', like:
-        # env:
-        #   CIBW_SOME_OPTION: value
+        env:
+            CIBW_BEFORE_BUILD: ''
 
       - uses: actions/upload-artifact@v2
         with:
